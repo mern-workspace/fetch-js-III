@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fff;
+    
+    /* Flexbox layout to push buttons to bottom */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#get-joke-btn {
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
+}
+
+#joke-setup {
+    margin-top: 60px;
+    font-size: 1.5em;
+    flex-grow: 1; /* Makes the joke setup take up the available space */
+}
+
+.buttons-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    /* width: 25%; */
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#punchline-container p{
+    margin-bottom: 3em;
+    font-size: 1.25rem;
+}
+
+#new-joke-btn {
+    width: 30%;
+    margin-left: 35%;
+}
