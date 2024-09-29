@@ -3,9 +3,7 @@ const punchlineContainer = document.getElementById('punchline-container');
 const getJokeBtn = document.getElementById('get-joke-btn');
 const newJokeBtn = document.getElementById('new-joke-btn');
 
-// Initially set get joke button text to empty
 
-// Add event listeners
 getJokeBtn.addEventListener('click', fetchJoke);
 newJokeBtn.addEventListener('click', fetchJoke);
 
